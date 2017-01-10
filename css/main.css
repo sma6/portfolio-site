@@ -116,7 +116,7 @@ body {
 /***header***/
 header{
     height: 800px;
-    background:#9b9b9b url('../img/bkgd.jpg');
+    background:#9b9b9b url('../img/black-geometric.jpg');
     background-size: cover;
 }
 header h1 { 
@@ -137,7 +137,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Raleway';
     font-size: 18px; 
-    color: #616161;
+    color: #fff;
     padding-left: 80px; 
 }
 header h2 {
