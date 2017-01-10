@@ -100,23 +100,23 @@ body {
 #about, #work, #contact {
     height: 600px;
 }
- /***grid***/
- .full-width {
+/***grid***/
+.full-width {
     width: 100%;
     margin: 0 auto;
- }
- .half-width {
+}
+.half-width {
     width: 50%;
     float: left;
- }
- .third-width {
+}
+.third-width {
     width: 30%;
     float: left;
- }
+}
 /***header***/
-header{
+header {
     height: 800px;
-    background:#9b9b9b url('../img/bkgd.jpg');
+    background:#9b9b9b url('../img/black-geometric.jpg');
     background-size: cover;
 }
 header h1 { 
@@ -129,7 +129,7 @@ nav {
     float: right; 
     padding: 75px 40px;
 }
-nav ul li{
+nav ul li {
     display: inline-block;
 }
 nav ul li a {
@@ -137,7 +137,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Raleway';
     font-size: 18px; 
-    color: #616161;
+    color: #fff;
     padding-left: 80px; 
 }
 header h2 {
@@ -170,7 +170,7 @@ header h2 span {
     padding-right: 50px;
 }
 /***work***/
-#work{
+#work {
     background: #515151 url('../img/grey-wood.jpg');
     background-size: cover; 
     text-align: center;
@@ -216,7 +216,7 @@ header h2 span {
     font-size: 36px;
     color: #2b2b2b;
 }
-#email-header{
+#email-header {
     font-family: 'Raleway';
     font-size: 32px;
     color: #2b2b2b;
@@ -241,7 +241,7 @@ header h2 span {
     list-style: none;
 }
 #contact ul li {
-     display: inline-block;
+    display: inline-block;
 }
 #contact ul img {
     padding-right: 48px;
