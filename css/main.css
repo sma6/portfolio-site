@@ -96,6 +96,7 @@ textarea {
    ========================================================================== */
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: lightgrey;
 }
 #about, #work, #contact {
     height: 600px;
@@ -116,14 +117,14 @@ body {
 /***header***/
 header {
     height: 800px;
-    background:#9b9b9b url('../img/black-geometric.jpg');
+    background: url('../img/black-geometric.jpg');
     background-size: cover;
 }
 header h1 { 
     padding: 50px 0;
     font-family: 'Sumana';
     font-size: 30px;
-    color: #4e4c4f;
+    color: floralwhite;
 }
 nav {
     float: right; 
@@ -137,7 +138,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Raleway';
     font-size: 18px; 
-    color: #fff;
+    color: floralwhite;
     padding-left: 80px; 
 }
 header h2 {
@@ -146,32 +147,34 @@ header h2 {
     font-family: 'Sumana';
     font-size: 60px;
     line-height: 60px; 
-    color: #736565;
+    color: lightgrey;
     padding: 20px 0;
 }
 header h2 span {
-    color: #896565;
+    color: indianred;
 }
  /***about***/
+#about{
+    background: indianred;
+}
 #about .full-width {
     padding: 80px 0;
-    color: #f4f1f3;
 }
 #about h2 {
     font-family: 'Sumana';
     font-size: 36px;
-    color: #736565;
+    color: #292929;
 }
 #about p {
     font-family: 'Raleway';
     font-size: 21px;
-    color: #7f7f7f;
+    color: floralwhite;
     line-height: 40px;
     padding-right: 50px;
 }
 /***work***/
 #work {
-    background: #515151 url('../img/grey-wood.jpg');
+    background: #494949;
     background-size: cover; 
     text-align: center;
 }
@@ -185,25 +188,25 @@ header h2 span {
     font-family: 'Raleway';
     font-size: 24px;
     width: 190px;
-    color: #2b2b2b;
+    color: indianred;
     margin: 0 auto; 
 }
 #work p {
     font-family: 'Sumana';
     font-size: 18px;
     line-height: 30px;
-    color: #2b2b2b;
+    color: floralwhite;
     padding: 0 35px;
 }
 /***contact***/
 #contact {
-    background: #f4f1f1;
+    background: dimgrey;
 }
 #contact .full-width {
     padding: 110px 0;
 }
 #contact-img {
-    border: 12px solid #ffffff;
+    border: 12px solid floralwhite;
 }
 #contact h2, #email-header, #socialmedia-header, #contact ul {
     padding-left: 115px;
@@ -214,12 +217,12 @@ header h2 span {
 #contact h2 {
     font-family: 'Sumana';
     font-size: 36px;
-    color: #2b2b2b;
+    color: #292929;
 }
 #email-header {
     font-family: 'Raleway';
     font-size: 32px;
-    color: #2b2b2b;
+    color: lightgrey;
     font-weight: 500; 
     margin: -30px 0 5px 0;
 }
@@ -227,12 +230,12 @@ header h2 span {
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 29px;
-    color: #2b2b2b;
+    color: lightgrey;
     margin: 40px 0 0 0;
 }
 #contact a {
     font-weight: bold; 
-    color: #c49075;
+    color: floralwhite;
     font-family: 'Raleway';
     font-size: 28px;
     text-decoration: none;
@@ -246,17 +249,11 @@ header h2 span {
 #contact ul img {
     padding-right: 48px;
 }
-
-
-
-
-
-
-
-
-
-
-
+/***footer***/
+footer p{
+    text-align: center;
+    color: #292929;
+}
 
 
 
