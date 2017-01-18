@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: lightgrey;
+    background-color: silver;
 }
 #about, #work, #contact {
     height: 600px;
@@ -147,7 +147,7 @@ header h2 {
     font-family: 'Sumana';
     font-size: 60px;
     line-height: 60px; 
-    color: lightgrey;
+    color: silver;
     padding: 20px 0;
 }
 header h2 span {
