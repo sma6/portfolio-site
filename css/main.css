@@ -96,7 +96,8 @@ textarea {
    ========================================================================== */
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: silver;
+    font-size: 16px;
+    background-color: lightgrey;
 }
 #about, #work, #contact {
     height: 600px;
@@ -252,7 +253,7 @@ header h2 span {
 /***footer***/
 footer p{
     text-align: center;
-    color: #292929;
+    color: #494949;
 }
 
 
